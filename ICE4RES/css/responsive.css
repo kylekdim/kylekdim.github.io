@@ -2,9 +2,8 @@
 * {
   margin: 0px;
 }
-<!-- If between these dimensions -->
+/* FOR THE DIMENSIONS BELOW*/
 
-<!-- Nav menu -->
 @media only screen and (min-width:650px) and (max-width:1000px){
   .top-nav ul {
     text-align: center;
@@ -15,7 +14,8 @@
     border-top: 1.5px solid red;
   }
 
-<!-- photos -->
+/* FOR IMAGES PAGE*/
+
   .photo-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,9 +37,7 @@
 
 
 
-<!-- If between these dimensions -->
-
-<!-- Nav menu -->
+/*FOR DIMENSIONS BELOW*/
 
 @media only screen and (min-width:1000px){
 
@@ -54,7 +52,8 @@
     border-top: none;
   }
 
-<!-- photos -->
+/*FOR IMAGES PAGE*/
+
   .photo-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
