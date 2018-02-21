@@ -2,22 +2,20 @@
 * {
   margin: 0px;
 }
+<!-- If between these dimensions -->
 
+<!-- Nav menu -->
 @media only screen and (min-width:650px) and (max-width:1000px){
-  /* NAVIGATION */
-  /* center the navigation options */
   .top-nav ul {
     text-align: center;
   }
 
-  /* MAIN CONTENT */
-  /* change display & the top border */
   .top-nav ul li {
     display: inline-block;
     border-top: 1.5px solid red;
   }
 
-  /* use grid to fix the layout */
+<!-- photos -->
   .photo-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,8 +35,14 @@
   }
 }
 
+
+
+<!-- If between these dimensions -->
+
+<!-- Nav menu -->
+
 @media only screen and (min-width:1000px){
-  /* NAVIGATION */
+
   .top-nav {
     display: flex;
     justify-content:space-between;
@@ -49,8 +53,8 @@
     display: inline-block;
     border-top: none;
   }
-  /* MAIN CONTENT */
-  /* use grid to fix the layout */
+
+<!-- photos -->
   .photo-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
