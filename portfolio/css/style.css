@@ -17,6 +17,20 @@ p {
   font-family: "Raleway";
 }
 
+h2{
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-decoration: underline;
+    text-decoration-color: orange;
+  color: #3B5C9B;
+  text-align: center;
+}
+
+h4{
+  font-family: "Open Sans";
+  color: #3B5C9B;
+}
+
 .navbar-brand{
   padding-top: 10px;
   font-family: "Open Sans";
@@ -52,12 +66,22 @@ p {
 }
 
 body{
+
   background-image: url('../img/lab_bg.png');
   background-repeat: no-repeat;
   background-size: 100% cover;
-  /*position: relative;*/
+  position: relative;
   min-height: 100%;
   padding-bottom: 210px;
+}
+
+main{
+  width: 90%;
+  margin: 1% auto 1% auto;
+  padding: 2% 0;
+  background-color: white;
+  opacity: 60%;
+  box-shadow: 0px 5px 16px 0px rgba(142, 141, 139, .75);
 }
 
 .dark-blue-bg{
@@ -140,7 +164,7 @@ footer a:hover {
   margin-top: 5px;
 }
 
-/* -------- */
+/* ---- ABOUT ME PAGE ---- */
 
 #biosec {
   margin: 40px auto 40px auto;
@@ -154,21 +178,66 @@ footer a:hover {
 }
 
 
-#aboutme h2{
-	font-family: "Open Sans";
-	font-weight: bold;
-	text-decoration: underline;
-    text-decoration-color: orange;
-	color: #3B5C9B;
-	text-align: center;
-}
-
 #selfpic{
 	float: left;
 	padding-right: 30px;
 	padding-bottom: 30px;
 }
 
+/* ------- CONTACT PAGE ------- */
+
+
+#contact h2 {
+  display: block;
+  margin: 40px;
+}
+
+#contact h4 {
+  display: block;
+  text-align: center;
+  margin: 0px auto 1% auto;
+}
+
+#contact p{
+  margin: 15px 5% 15px;
+}
+#map-container{
+  width: 70%;
+  margin: 40px auto 40px auto;
+}
+
+.map {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+  vertical-align:top;
+}
+
+iframe{
+  display:inline;
+  width: 100%;
+}
+
+.map-comment {
+  display: inline-block;
+  width: 36%;
+  margin: auto auto auto 10%;
+  vertical-align: top;
+}
+
+.card {
+  margin: auto 10%;
+  border-radius: 30px;
+  background-color: #D8D8D8;
+}
+
+.card-header{
+  color: white;
+  font-family:"Open Sans";
+  background-color: #3B5C9B;
+
+
+}
 
 /* FOR IMAGES PAGE*/
 
