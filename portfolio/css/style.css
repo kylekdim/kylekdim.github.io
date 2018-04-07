@@ -52,7 +52,7 @@ p {
 }
 
 body{
-  background-image: url("lab_bg.png");
+  background-image: url('../img/lab_bg.png');
   background-repeat: no-repeat;
   background-size: 100% cover;
   /*position: relative;*/
