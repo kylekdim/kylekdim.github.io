@@ -236,7 +236,7 @@ footer a:hover {
 
 #biotext {
 	display: block;
-  width: 60%;
+  width: 95%;
   margin: auto;
   }
 
@@ -264,8 +264,9 @@ footer a:hover {
 #contact p{
   margin: 15px 5% 15px;
 }
+
 #map-container{
-  width: 70%;
+  width: 90%;
   margin: 40px auto 40px auto;
 }
 
@@ -300,8 +301,8 @@ iframe{
 
 #portintro {
   display: block;
-  width: 60%;
-  margin: auto;
+  width: 95%;
+  margin: auto ;
   text-align: center;
 }
 
@@ -327,7 +328,7 @@ iframe{
   }
   
   p {
-    font-size: 18pt;
+    font-size: 14pt;
   }
  
 }
@@ -361,6 +362,18 @@ iframe{
     font-size: 85pt;
   }
 
+  #biotext {
+    display: block;
+    width: 60%;
+  }
+
+  #portintro {
+    width: 60%;
+  }
+
+  #map-container{
+    width: 70%;
+  }
 
 } 
 
@@ -386,11 +399,24 @@ iframe{
   }
 
   p {
-    font-size: 14pt;
+    font-size: 18pt;
   }
 
   .icon{
     font-size: 100pt;
+  }
+
+  #biotext {
+    display: block;
+    width: 60%;
+  }
+
+  #portintro {
+    width: 95%;
+  }
+
+  #map-container{
+    width: 70%;
   }
 
 }
