@@ -1,18 +1,18 @@
 /*--------------------------------------*/
-/*-----------Site-wide Style ---------- */
-/*--------------------------------------*/
 
+/*-----------Site-wide Style ---------- */
+
+/*--------------------------------------*/
 
 /*Basic Components*/
 
 * {
-    margin: 0px;
+  margin: 0px;
 }
 
-html{
-  height: 100%; 
+html {
+  height: 100%;
 }
-
 
 header {
   box-shadow: 0px 5px 16px 0px rgba(142, 141, 139, .75);
@@ -22,23 +22,23 @@ p {
   font-family: "Raleway";
 }
 
-h2{
+h2 {
   font-family: "Open Sans";
   font-weight: bold;
   text-decoration: underline;
-    text-decoration-color: #f1bd47;
+  text-decoration-color: #f1bd47;
   color: #3B5C9B;
   text-align: center;
 }
 
-h4{
+h4 {
   font-family: "Open Sans";
   color: #3B5C9B;
 }
 
 /*Nav-related stuff*/
 
-.navbar-brand{
+.navbar-brand {
   padding-top: 10px;
   font-family: "Open Sans";
   font-size: 24pt;
@@ -46,7 +46,7 @@ h4{
   color: #3B5C9B !important;
 }
 
- .nav-link {
+.nav-link {
   font-family: "Open Sans";
   font-weight: 200;
   font-size: 20pt;
@@ -58,7 +58,8 @@ h4{
   color: gray !important;
 }
 
-.active a, .active a:visited{
+.active a,
+.active a:visited {
   font-family: "Open Sans";
   font-weight: bold;
   font-size: 20pt;
@@ -68,12 +69,11 @@ h4{
 }
 
 .nav-item a:hover {
-    border-bottom: 3px solid #f1bd47;
-    padding-bottom: 1px;
+  border-bottom: 3px solid #f1bd47;
+  padding-bottom: 1px;
 }
 
-body{
-
+body {
   background-image: url('../img/lab_bg.png');
   background-repeat: no-repeat;
   background-size: 100% cover;
@@ -82,7 +82,7 @@ body{
   padding-bottom: 210px;
 }
 
-main{
+main {
   width: 90%;
   margin: 2% auto 2% auto;
   padding: 2% 0;
@@ -91,38 +91,35 @@ main{
   box-shadow: 0px 5px 16px 0px rgba(142, 141, 139, .75);
 }
 
-main p{
+main p {
   margin: 4%;
 }
 
-.card-header{
+.card-header {
   color: white;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   background-color: #3B5C9B;
   font-size: 18pt;
 }
 
-
 /* footer */
 
 .footer-box {
-    display: block;
-    width: 100%;
-    margin-top: 30px;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to bottom right, #3B5C9B , #73c7e3);
-    box-shadow: 12px 5px 16px 10px rgba(142, 141, 139, .8);
-  }
-
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #3B5C9B, #73c7e3);
+  box-shadow: 12px 5px 16px 10px rgba(142, 141, 139, .8);
+}
 
 .footer-content-box {
   padding: 40px 0px;
   color: white;
 }
-
 
 .social-icon {
   list-style: none;
@@ -151,7 +148,7 @@ footer a:hover {
 
 .footer-bottom {
   font-family: "Open Sans";
-  display:inline-block;
+  display: inline-block;
   bottom: 4px;
   left: 5px;
   position: absolute;
@@ -159,19 +156,22 @@ footer a:hover {
   color: white;
   margin-top: 5px;
 }
-/*---------------------------*/
-/*----- HOMEPAGE/INDEX ------*/
+
 /*---------------------------*/
 
-.dark-blue-bg{
+/*----- HOMEPAGE/INDEX ------*/
+
+/*---------------------------*/
+
+.dark-blue-bg {
   background-color: #3B5C9B;
 }
 
-.white-text{
+.white-text {
   color: white;
 }
 
-.cursive{
+.cursive {
   font-family: "Lobster", cursive;
   color: #f1bd47;
 }
@@ -185,44 +185,44 @@ footer a:hover {
   padding: 20px 0px 20px;
 }
 
-#intro p{
+#intro p {
   display: block;
   text-align: center;
 }
 
-#intro h2{
+#intro h2 {
   text-decoration: none;
 }
 
-
-#intro .card-body{
+#intro .card-body {
   background-color: #F8F8F8;
 }
 
-
-.icon{
+.icon {
   color: #73c7e3;
   font-size: 60pt;
 }
 
-.top-buffer { 
-  margin-top:20px; 
+.top-buffer {
+  margin-top: 20px;
 }
 
-.skills-container{
+.skills-container {
   width: 95%;
   margin: auto;
 }
 
-.skills-container .card{
+.skills-container .card {
   width: 100%;
   height: 60%;
   margin: 30px, auto;
   vertical-align: top;
-} 
+}
 
 /*---------------------------*/
+
 /* ---- ABOUT ME PAGE ------ */
+
 /*---------------------------*/
 
 /*#biosec {
@@ -230,26 +230,27 @@ footer a:hover {
   border: 3px solid red;
 }*/
 
-#selfport{
-  display:block;
+#selfport {
+  display: block;
   margin: 10px auto 10px auto;
 }
 
 #biotext {
-	display: block;
+  display: block;
   width: 95%;
   margin: auto;
-  }
+}
 
-
-#selfpic{
-	float: left;
-	padding-right: 30px;
-	padding-bottom: 30px;
+#selfpic {
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 /*---------------------------*/
+
 /*-------- PORTFOLIO PAGE----*/
+
 /*---------------------------*/
 
 #portintro {
@@ -263,8 +264,8 @@ footer a:hover {
   width: 100%;
 }
 
-#gallery .container-fluid{
-  margin:0 auto 0 auto;
+#gallery .container-fluid {
+  margin: 0 auto 0 auto;
 }
 
 .thumbnail {
@@ -281,9 +282,9 @@ footer a:hover {
   top: 50%;
   height: 150%;
   width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .thumbnail img.portrait {
@@ -293,7 +294,9 @@ footer a:hover {
 }
 
 /*---------------------------*/
+
 /* ------- CONTACT PAGE -----*/
+
 /*---------------------------*/
 
 #contact h2 {
@@ -306,11 +309,11 @@ footer a:hover {
   margin: 40px auto 1% auto;
 }
 
-#contact p{
+#contact p {
   margin: 15px 5% 15px;
 }
 
-#map-container{
+#map-container {
   width: 90%;
   margin: 40px auto 40px auto;
 }
@@ -319,11 +322,11 @@ footer a:hover {
   display: inline-block;
   width: 50%;
   margin: auto;
-  vertical-align:top;
+  vertical-align: top;
 }
 
-iframe{
-  display:inline;
+iframe {
+  display: inline;
   width: 100%;
 }
 
@@ -339,125 +342,99 @@ iframe{
   background-color: #F8F8F8;
 }
 
-
 /*---------------------------*/
+
 /* -------Media Queries----- */
+
 /*---------------------------*/
 
 /*Phone*/
-@media only screen and (max-width:768px){
-  
+
+@media only screen and (max-width:768px) {
   #navlogo {
     height: 50px;
     width: 50px;
     margin: 3px;
   }
-  
   #greeting {
     font-size: 24pt;
   }
-  .cursive{
+  .cursive {
     font-size: 30pt;
   }
-  
   p {
     font-size: 14pt;
   }
-
- 
 }
 
-
-
 /* Tablet/Small PC */
-@media only screen and (min-width:768px) and (max-width:992px){
 
-
- #navlogo {
+@media only screen and (min-width:768px) and (max-width:992px) {
+  #navlogo {
     height: 70px;
     width: 70px;
     margin: 5px;
   }
-
   #greeting {
     font-size: 30pt;
-
   }
-
-  .cursive{
+  .cursive {
     font-size: 36pt;
   }
-
   p {
     font-size: 16pt;
   }
-
-  .icon{
+  .icon {
     font-size: 85pt;
   }
-
   #biotext {
     display: block;
     width: 60%;
   }
-
   #portintro {
     width: 60%;
   }
-
-  #map-container{
+  #map-container {
     width: 70%;
   }
-
-} 
-
-
+}
 
 /* Full Size Screen */
-@media only screen and (min-width:992px){
 
-	
-
- #navlogo {
+@media only screen and (min-width:992px) {
+  #navlogo {
     height: 80px;
     width: 80px;
     margin: 5px;
   }
-
   #greeting {
     font-size: 40pt;
   }
-
-  .cursive{
+  .cursive {
     font-size: 50pt;
   }
-
   p {
     font-size: 18pt;
   }
-
-  .icon{
+  .icon {
     font-size: 100pt;
   }
-
   #biotext {
     display: block;
     width: 60%;
   }
-
   #portintro {
     width: 95%;
   }
-
-  #map-container{
+  #map-container {
     width: 70%;
   }
-
-
 }
 
 /*-------------You've reached the end of my CSS, -------------*/
-/*----so here's a secret about me... I use fast food napkins--*/
-/*-------------instead of buying tissue. I don't want---------*/
-/*-------to spend my money on something I blow my nose into.--*/
 
+/*----so here's a secret about me... I use fast food napkins--*/
+
+/*-------------instead of buying tissue. I don't want---------*/
+
+/*-------to spend my money on something I blow my nose into.--*/
