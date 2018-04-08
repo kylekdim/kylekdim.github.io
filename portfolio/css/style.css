@@ -226,7 +226,7 @@ footer a:hover {
 /*---------------------------*/
 
 #biosec {
-  margin: 40px auto 40px auto;
+  margin: 10px auto 10px auto;
 }
 
 #selfport{
@@ -253,13 +253,12 @@ footer a:hover {
 
 #contact h2 {
   display: block;
-  margin: 40px;
 }
 
 #contact h4 {
   display: block;
   text-align: center;
-  margin: 0px auto 1% auto;
+  margin: 40px auto 1% auto;
 }
 
 #contact p{
