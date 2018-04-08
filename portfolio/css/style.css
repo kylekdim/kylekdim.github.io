@@ -1,4 +1,9 @@
-/*Site-wide Style */
+/*--------------------------------------*/
+/*-----------Site-wide Style ---------- */
+/*--------------------------------------*/
+
+
+/*Basic Components*/
 
 * {
     margin: 0px;
@@ -30,6 +35,8 @@ h4{
   font-family: "Open Sans";
   color: #3B5C9B;
 }
+
+/*Nav-related stuff*/
 
 .navbar-brand{
   padding-top: 10px;
@@ -152,8 +159,9 @@ footer a:hover {
   color: white;
   margin-top: 5px;
 }
-
+/*---------------------------*/
 /*----- HOMEPAGE/INDEX ------*/
+/*---------------------------*/
 
 .dark-blue-bg{
   background-color: #3B5C9B;
@@ -182,9 +190,23 @@ footer a:hover {
   text-align: center;
 }
 
+#intro h2{
+  text-decoration: none;
+}
+
+/*#intro .container-fluid{
+  width: 95%;
+  margin: 10px;
+}*/
+
+
 .icon{
   color: #73c7e3;
   font-size: 60pt;
+}
+
+.top-buffer { 
+  margin-top:20px; 
 }
 
 .skills-container{
@@ -199,19 +221,24 @@ footer a:hover {
   vertical-align: top;
 } 
 
-
-/* ---- ABOUT ME PAGE ---- */
+/*---------------------------*/
+/* ---- ABOUT ME PAGE ------ */
+/*---------------------------*/
 
 #biosec {
   margin: 40px auto 40px auto;
 }
 
-#aboutme {
-	margin: 40px 10px;
-	font-family: "Raleway", sans-serif;
-	display: block;
-
+#selfport{
+  display:block;
+  margin: 10px auto 10px auto;
 }
+
+#biotext {
+	display: block;
+  width: 60%;
+  margin: auto;
+  }
 
 
 #selfpic{
@@ -220,8 +247,9 @@ footer a:hover {
 	padding-bottom: 30px;
 }
 
-/* ------- CONTACT PAGE ------- */
-
+/*---------------------------*/
+/* ------- CONTACT PAGE -----*/
+/*---------------------------*/
 
 #contact h2 {
   display: block;
@@ -267,36 +295,25 @@ iframe{
 }
 
 
+/*---------------------------*/
+/*-------- PORTFOLIO PAGE----*/
+/*---------------------------*/
 
-/* FOR IMAGES PAGE*/
-
-  .photo-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .photo-cell {
-    grid-column: 1 / span 2;
-    padding: 0px;
-  }
-
-  .yellow {
-    grid-column: 1 / 2;
-  }
-
-  .bluish {
-    grid-column: 2 / 2;
-  }
+#portintro {
+  display: block;
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
 
-
-/* Media Queries */
-
+/*---------------------------*/
+/* -------Media Queries----- */
+/*---------------------------*/
 
 /*Phone*/
 @media only screen and (max-width:640px){
-
+  
   #navlogo {
     height: 50px;
     width: 50px;
@@ -313,7 +330,6 @@ iframe{
   p {
     font-size: 18pt;
   }
-
  
 }
 
@@ -380,23 +396,8 @@ iframe{
 
 }
 
+/*-------------You've reached the end of my CSS, -------------*/
+/*----so here's a secret about me... I use fast food napkins--*/
+/*-------------instead of buying tissue. I don't want---------*/
+/*-------to spend my money on something I blow my nose into.--*/
 
-/*FOR IMAGES PAGE*/
-
-  .photo-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .photo-cell {
-    grid-column: span 2;
-    padding: 0px;
-  }
-
-  .yellow {
-    grid-column: 1 / 2;
-  }
-
-  .bluish {
-    grid-column: 2 / 2;
-  }
