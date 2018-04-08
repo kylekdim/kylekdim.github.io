@@ -26,7 +26,7 @@ h2{
   font-family: "Open Sans";
   font-weight: bold;
   text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: #f1bd47;
   color: #3B5C9B;
   text-align: center;
 }
@@ -194,10 +194,10 @@ footer a:hover {
   text-decoration: none;
 }
 
-/*#intro .container-fluid{
-  width: 95%;
-  margin: 10px;
-}*/
+
+#intro .card-body{
+  background-color: #F8F8F8;
+}
 
 
 .icon{
@@ -248,6 +248,50 @@ footer a:hover {
 }
 
 /*---------------------------*/
+/*-------- PORTFOLIO PAGE----*/
+/*---------------------------*/
+
+#portintro {
+  display: block;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+
+#gallery {
+  width: 100%;
+}
+
+#gallery .container-fluid{
+  margin:0 auto 0 auto;
+}
+
+.thumbnail {
+  position: relative;
+  min-height: 300px;
+  overflow: hidden;
+  margin: 4%;
+  box-shadow: 0px 5px 16px 0px rgba(142, 141, 139, .75);
+}
+
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 150%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.thumbnail img.portrait {
+  width: 150%;
+  height: auto;
+  margin: 0px;
+}
+
+/*---------------------------*/
 /* ------- CONTACT PAGE -----*/
 /*---------------------------*/
 
@@ -291,19 +335,7 @@ iframe{
 
 #contact .card {
   margin: auto 10%;
-  background-color: #D8D8D8;
-}
-
-
-/*---------------------------*/
-/*-------- PORTFOLIO PAGE----*/
-/*---------------------------*/
-
-#portintro {
-  display: block;
-  width: 95%;
-  margin: auto ;
-  text-align: center;
+  background-color: #F8F8F8;
 }
 
 
@@ -312,7 +344,7 @@ iframe{
 /*---------------------------*/
 
 /*Phone*/
-@media only screen and (max-width:640px){
+@media only screen and (max-width:768px){
   
   #navlogo {
     height: 50px;
@@ -330,13 +362,14 @@ iframe{
   p {
     font-size: 14pt;
   }
+
  
 }
 
 
 
 /* Tablet/Small PC */
-@media only screen and (min-width:640px) and (max-width:1000px){
+@media only screen and (min-width:768px) and (max-width:992px){
 
 
  #navlogo {
@@ -380,7 +413,7 @@ iframe{
 
 
 /* Full Size Screen */
-@media only screen and (min-width:1000px){
+@media only screen and (min-width:992px){
 
 	
 
@@ -418,6 +451,7 @@ iframe{
   #map-container{
     width: 70%;
   }
+
 
 }
 
