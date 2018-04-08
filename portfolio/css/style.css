@@ -88,29 +88,14 @@ main p{
   margin: 4%;
 }
 
-.dark-blue-bg{
-  background-color: #3B5C9B;
-}
-
-.white-text{
+.card-header{
   color: white;
+  font-family:"Open Sans";
+  background-color: #3B5C9B;
+  font-size: 18pt;
 }
 
-.cursive{
-  font-family: "Lobster", cursive;
-  color: #f1bd47;
-  font-size: 28pt;
-}
 
-#greeting {
-  margin: 20px 0px 20px;
-	line-height: 150%;
-	color: white;
-	font-family: "Open Sans" !important;
-	font-size: 24pt;
-	text-align: center;
-  padding: 20px 0px 20px;
-}
 /* footer */
 
 .footer-box {
@@ -167,6 +152,53 @@ footer a:hover {
   color: white;
   margin-top: 5px;
 }
+
+/*----- HOMEPAGE/INDEX ------*/
+
+.dark-blue-bg{
+  background-color: #3B5C9B;
+}
+
+.white-text{
+  color: white;
+}
+
+.cursive{
+  font-family: "Lobster", cursive;
+  color: #f1bd47;
+}
+
+#greeting {
+  margin: 20px 0px 20px;
+  line-height: 150%;
+  color: white;
+  font-family: "Open Sans" !important;
+  text-align: center;
+  padding: 20px 0px 20px;
+}
+
+#intro p{
+  display: block;
+  text-align: center;
+}
+
+.icon{
+  color: #73c7e3;
+  font-size: 60pt;
+}
+
+.skills-container{
+  width: 95%;
+  margin: auto;
+}
+
+.skills-container .card{
+  width: 100%;
+  height: 60%;
+  margin: 30px, auto;
+  vertical-align: top;
+} 
+
 
 /* ---- ABOUT ME PAGE ---- */
 
@@ -229,19 +261,12 @@ iframe{
   vertical-align: top;
 }
 
-.card {
+#contact .card {
   margin: auto 10%;
-  border-radius: 30px;
   background-color: #D8D8D8;
 }
 
-.card-header{
-  color: white;
-  font-family:"Open Sans";
-  background-color: #3B5C9B;
 
-
-}
 
 /* FOR IMAGES PAGE*/
 
@@ -278,17 +303,24 @@ iframe{
     margin: 3px;
   }
   
+  #greeting {
+    font-size: 24pt;
+  }
+  .cursive{
+    font-size: 30pt;
+  }
+  
   p {
-    font-size: 14pt;
+    font-size: 18pt;
   }
 
+ 
 }
+
+
 
 /* Tablet/Small PC */
 @media only screen and (min-width:640px) and (max-width:1000px){
-  p {
-    font-size: 16pt;
-  }
 
 
  #navlogo {
@@ -297,33 +329,32 @@ iframe{
     margin: 5px;
   }
 
-.cursive{
-  font-size: 36pt;
-}
+  #greeting {
+    font-size: 30pt;
 
-#greeting {
-  font-size: 30pt;
+  }
 
-}
+  .cursive{
+    font-size: 36pt;
+  }
 
-  /*.footer-box {
-    display: block;
-    width: 100%;
-    margin-top: 50px;
-    min-height: 200px;
-    max-height: 250px;
-    position: absolute;
-    bottom: 0;
-    background: linear-gradient(to bottom right, #3B5C9B , #73c7e3);
-  }*/
-}
+  p {
+    font-size: 16pt;
+  }
+
+  .icon{
+    font-size: 85pt;
+  }
+
+
+} 
+
+
 
 /* Full Size Screen */
 @media only screen and (min-width:1000px){
 
-	p {
-    font-size: 18pt;
-  }
+	
 
  #navlogo {
     height: 80px;
@@ -331,26 +362,21 @@ iframe{
     margin: 5px;
   }
 
-  .cursive{
-  font-size: 50pt;
-  }
-
   #greeting {
-  font-size: 40pt;
-
+    font-size: 40pt;
   }
 
-  /*.footer-box {
-    display: block;
-    width: 100%;
-    margin-top: 50px;
-    min-height: 200px;
-    max-height: 250px;
-    position: absolute;
-    bottom: 0;
-    background: linear-gradient(to bottom right, #3B5C9B , #73c7e3);
+  .cursive{
+    font-size: 50pt;
+  }
 
-  }*/
+  p {
+    font-size: 14pt;
+  }
+
+  .icon{
+    font-size: 100pt;
+  }
 
 }
 
