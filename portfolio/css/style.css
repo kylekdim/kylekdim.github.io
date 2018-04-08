@@ -84,7 +84,7 @@ body{
 
 main{
   width: 90%;
-  margin: 1% auto 1% auto;
+  margin: 2% auto 2% auto;
   padding: 2% 0;
   background-color: white;
   opacity: 60%;
@@ -225,9 +225,10 @@ footer a:hover {
 /* ---- ABOUT ME PAGE ------ */
 /*---------------------------*/
 
-#biosec {
+/*#biosec {
   margin: 10px auto 10px auto;
-}
+  border: 3px solid red;
+}*/
 
 #selfport{
   display:block;
