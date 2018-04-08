@@ -142,6 +142,7 @@ footer a:hover {
 .footer-heading {
   font-family: "Open Sans";
   font-size: 16pt;
+  font-weight:bold;
   color: white;
   text-align: center;
 }
@@ -152,7 +153,8 @@ footer a:hover {
   bottom: 4px;
   left: 5px;
   position: absolute;
-  font-size: 14px;
+  font-size: 14pt;
+  font-weight: bold;
   color: white;
   margin-top: 5px;
 }
