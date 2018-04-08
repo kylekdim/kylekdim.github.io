@@ -18,9 +18,11 @@ When you test your form at the moment, you'll notice that you can click on the c
     </style>
     
     <script type="text/javascript">
-	function toggleEmail(){
+	    function toggleEmail(){
+        
         var subscribed = document.getElementById("subscribe").checked;
         var em = document.getElementById("emailfield");
+        
         if (subscribed == true){
           em.style.display = "block";
         }
@@ -28,7 +30,6 @@ When you test your form at the moment, you'll notice that you can click on the c
           em.style.display = "none";
         }
       }
-	} 
     </script>
   </head>
   <body>
