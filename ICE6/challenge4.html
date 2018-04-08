@@ -20,6 +20,7 @@
       var addr = document.getElementById("streetaddr");
       var n_err = document.getElementById("nameerrormsg");
       var a_err = document.getElementById("addrerrormsg");
+      
       if (!name.value){
         n_err.style.display = "block";
       } 
@@ -28,7 +29,7 @@
         n_err.style.display = "none";
       }
 
-      if (!a.value){
+      if (!addr.value){
         a_err.style.display = "block";
       } 
 
@@ -36,7 +37,7 @@
         a_err.style.display = "none";
       }
       
-      if (!name.value || !name.value){
+      if (!name.value || !addr.value){
         return false;
       }
     }

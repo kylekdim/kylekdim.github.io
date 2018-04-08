@@ -6,12 +6,18 @@
     <script type="text/javascript">
     function checkForm(){
 
-    	var straw = document.getElementById("opt-straw").checked;
-      var blue = document.getElementById("opt-blue").checked;
+    	var s = document.getElementById("opt-straw").checked;
+      var b = document.getElementById("opt-blue").checked;
       
-      if (straw != true && blue != true) {
+      if (s != true && b != true) {
         return false;
 		  }
+
+      if (s == true && b == true) {
+        return false;
+      }
+
+
     }
 
     </script>
