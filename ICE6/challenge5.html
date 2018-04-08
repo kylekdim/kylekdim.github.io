@@ -37,8 +37,21 @@
 	</style>
 
 	<script type="text/javascript">
-	// I used Two functions here.  Starter idea at: 
-	// https://codepen.io/ColleenEMc/pen/XmZzWw
+		function showImage(img){
+      		var src = img.src;
+      		var alt = img.alt;
+      		var imgDiv = document.getElementById("image");
+      		
+      		imgDiv.style.backgroundImage = "url(" + img.src + ")";
+      		imgDiv.innerHTML = img.alt;
+    	}
+
+    	function hideImage(){
+      		var imgDiv = document.getElementById("image");
+      		
+      		imgDiv.style.backgroundImage = null;
+      		imgDiv.innerHTML = "Hover over an image below.";
+    	}
 	</script>
 </head>
 
@@ -54,6 +67,7 @@
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";
 			onmouseover="showImage(this)"
       		onmouseout="hideImage()"
+      		
       		tabindex="0"
       		onfocus="showImage(this)"
       		onblur="hideImage()">
@@ -62,11 +76,23 @@
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->	
 		<img class = "preview" 
 			alt = "With My Boy" 
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";>
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";
+			onmouseover="showImage(this)"
+      		onmouseout="hideImage()"
+      		
+      		tabindex="1"
+      		onfocus="showImage(this)"
+      		onblur="hideImage()">
 	
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img class = "preview" tabindex = "1" 
+		<img class = "preview"
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
-			alt = "Young Puppy";>
+			alt = "Young Puppy";
+			onmouseover="showImage(this)"
+      		onmouseout="hideImage()"
+      		
+      		tabindex="2"
+      		onfocus="showImage(this)"
+      		onblur="hideImage()">
 </body>
 </html>
