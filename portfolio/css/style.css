@@ -1,0 +1,442 @@
+/*--------------------------------------*/
+
+/*-----------Site-wide Style ---------- */
+
+/*--------------------------------------*/
+
+/*Basic Components*/
+
+* {
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  box-shadow: 0px 5px 16px 0px rgba(142, 141, 139, .75);
+}
+
+p {
+  font-family: "Raleway";
+}
+
+h2 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #f1bd47;
+  color: #3B5C9B;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Open Sans";
+  color: #3B5C9B;
+}
+
+/*Nav-related stuff*/
+
+.navbar-brand {
+  padding-top: 10px;
+  font-family: "Open Sans";
+  font-size: 24pt;
+  font-weight: bold;
+  color: #3B5C9B !important;
+}
+
+.nav-link {
+  font-family: "Open Sans";
+  font-weight: 200;
+  font-size: 20pt;
+  padding: 0px 25px 0px !important;
+  color: #3B5C9B !important;
+}
+
+.nav-item a:visited {
+  color: gray !important;
+}
+
+.active a,
+.active a:visited {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 20pt;
+  border-bottom: 3px solid #f1bd47;
+  padding-bottom: 1px;
+  color: #3B5C9B !important;
+}
+
+.nav-item a:hover {
+  border-bottom: 3px solid #f1bd47;
+  padding-bottom: 1px;
+}
+
+body {
+  background-image: url('../img/lab_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 210px;
+}
+
+main {
+  width: 90%;
+  margin: 2% auto 2% auto;
+  padding: 2% 0;
+  background-color: white;
+  opacity: 60%;
+  box-shadow: 0px 5px 16px 0px rgba(142, 141, 139, .75);
+}
+
+main p {
+  margin: 4%;
+}
+
+.card-header {
+  color: white;
+  font-family: "Open Sans";
+  background-color: #3B5C9B;
+  font-size: 18pt;
+}
+
+/* footer */
+
+.footer-box {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #3B5C9B, #212F3C);
+  box-shadow: 12px 5px 16px 10px rgba(142, 141, 139, .8);
+}
+
+.footer-content-box {
+  padding: 40px 0px;
+  color: white;
+}
+
+.social-icon {
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: none;
+  color: white;
+}
+
+.footer-heading {
+  font-family: "Open Sans";
+  font-size: 16pt;
+  font-weight:bold;
+  color: white;
+  text-align: center;
+}
+
+.footer-bottom {
+  font-family: "Open Sans";
+  display: inline-block;
+  bottom: 4px;
+  left: 5px;
+  position: absolute;
+  font-size: 14pt;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+}
+
+/*---------------------------*/
+
+/*----- HOMEPAGE/INDEX ------*/
+
+/*---------------------------*/
+
+.dark-blue-bg {
+  background-color: #3B5C9B;
+}
+
+.white-text {
+  color: white;
+}
+
+.cursive {
+  font-family: "Lobster", cursive;
+  color: #f1bd47;
+}
+
+#greeting {
+  margin: 20px 0px 20px;
+  line-height: 150%;
+  color: white;
+  font-family: "Open Sans" !important;
+  text-align: center;
+  padding: 20px 0px 20px;
+}
+
+#intro p {
+  display: block;
+  text-align: center;
+}
+
+#intro h2 {
+  text-decoration: none;
+}
+
+#intro .card-body {
+  background-color: #F8F8F8;
+}
+
+.icon {
+  color: #73c7e3;
+  font-size: 60pt;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.skills-container {
+  width: 95%;
+  margin: auto;
+}
+
+.skills-container .card {
+  width: 100%;
+  height: 60%;
+  margin: 30px, auto;
+  vertical-align: top;
+}
+
+/*---------------------------*/
+
+/* ---- ABOUT ME PAGE ------ */
+
+/*---------------------------*/
+
+/*#biosec {
+  margin: 10px auto 10px auto;
+  border: 3px solid red;
+}*/
+
+#selfport {
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+#biotext {
+  display: block;
+  width: 95%;
+  margin: auto;
+}
+
+#selfpic {
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+/*---------------------------*/
+
+/*-------- PORTFOLIO PAGE----*/
+
+/*---------------------------*/
+
+#portintro {
+  display: block;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+
+#gallery {
+  width: 100%;
+}
+
+#gallery .container-fluid {
+  margin: 0 auto 0 auto;
+}
+
+.thumbnail {
+  position: relative;
+  min-height: 300px;
+  overflow: hidden;
+  margin: 4%;
+  box-shadow: 0px 5px 16px 0px rgba(142, 141, 139, .75);
+}
+
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 150%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.thumbnail img.portrait {
+  width: 150%;
+  height: auto;
+  margin: 0px;
+}
+
+/*---------------------------*/
+
+/* ------- CONTACT PAGE -----*/
+
+/*---------------------------*/
+
+#contact h2 {
+  display: block;
+}
+
+#contact h4 {
+  display: block;
+  text-align: center;
+  margin: 40px auto 1% auto;
+}
+
+#contact p {
+  margin: 15px 5% 15px;
+}
+
+#map-container {
+  width: 90%;
+  margin: 40px auto 40px auto;
+}
+
+.map {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+  vertical-align: top;
+}
+
+iframe {
+  display: inline;
+  width: 100%;
+}
+
+.map-comment {
+  display: inline-block;
+  width: 36%;
+  margin: auto auto auto 10%;
+  vertical-align: top;
+}
+
+#contact .card {
+  margin: auto 10%;
+  background-color: #F8F8F8;
+}
+
+/*---------------------------*/
+
+/* -------Media Queries----- */
+
+/*---------------------------*/
+
+/*Phone*/
+
+@media only screen and (max-width:768px) {
+  #navlogo {
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+  }
+  #greeting {
+    font-size: 24pt;
+  }
+  .cursive {
+    font-size: 30pt;
+  }
+  p {
+    font-size: 14pt;
+  }
+}
+
+/* Tablet/Small PC */
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+  #navlogo {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+  }
+  #greeting {
+    font-size: 30pt;
+  }
+  .cursive {
+    font-size: 36pt;
+  }
+  p {
+    font-size: 16pt;
+  }
+  .icon {
+    font-size: 85pt;
+  }
+  #biotext {
+    display: block;
+    width: 60%;
+  }
+  #portintro {
+    width: 60%;
+  }
+  #map-container {
+    width: 70%;
+  }
+}
+
+/* Full Size Screen */
+
+@media only screen and (min-width:992px) {
+  #navlogo {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+  }
+  #greeting {
+    font-size: 40pt;
+  }
+  .cursive {
+    font-size: 50pt;
+  }
+  p {
+    font-size: 18pt;
+  }
+  .icon {
+    font-size: 100pt;
+  }
+  #biotext {
+    display: block;
+    width: 60%;
+  }
+  #portintro {
+    width: 95%;
+  }
+  #map-container {
+    width: 70%;
+  }
+}
+
+/*-------------You've reached the end of my CSS, -------------*/
+
+/*----so here's a secret about me... I use fast food napkins--*/
+
+/*-------------instead of buying tissue. I don't want---------*/
+
+/*-------to spend my money on something I blow my nose into.--*/
