@@ -8,7 +8,47 @@
 </head>
 <body>
 	<h1>Kyle Chang</h1>
-	<img src="images/examPic.JPG" alt="Image of Colleen">
-	<img src="images/UMSI-logo.jpg" alt="UMSI Logo">
+	<div id="left"><img src="images/examPic.JPG" alt="Image of Colleen" id="leftimage" style="visibility:visible"></div><div id="right"><img src="images/UMSI-logo.jpg" alt="UMSI Logo" id="rightimage" style="visibility:visible"></div>
+	
+	<div id="buttons">
+    <input type="button" value="Hide Image" id="hideButton"/>
+    <input type="button" value="Show Image" id="showButton"/>
+	</div>
+	
+	<script  type="text/javascript">
+
+    var hideShowButton = document.getElementById("hideButton");
+
+    hideShowButton.onclick = function()
+    { 
+        var allImages = {left:"leftimage"};
+
+        if(document.getElementById("leftimage").style.visibility == 'visible')
+        {
+            for ( var image in allImages)
+            {
+                document.getElementById(allImages[image]).style.visibility = 'hidden'; 
+            }
+            document.getElementById("hideButton").innerHTML = "Mostrar imagens";
+        }
+    }
+
+    var hideShowButton = document.getElementById("showButton");
+
+    hideShowButton.onclick = function()
+    { 
+        var allImages = {left:"leftimage"};
+
+        if(document.getElementById("leftimage").style.visibility == 'hidden')
+        {
+            for ( var image in allImages)
+            {
+                document.getElementById(allImages[image]).style.visibility = 'visible'; 
+            }
+            document.getElementById("hideButton").innerHTML = "Mostrar imagens";
+        }
+    }
+	</script>
+	
 </body>
 </html>
