@@ -8,18 +8,16 @@ body {
 }
 
 
-
-
-.img1, .img2 {
-	display: inline-block;
-	margin: 0;
-
-	
-}
-
 img {
-	width: 50%;
+	width: 90%;
 	padding: 5%;
 	border: 5px solid blue;
+
 	
 }
+
+#left, #right {
+	width: 50%;
+	display: inline-block;	
+}
+
