@@ -17,9 +17,9 @@
 	
 	<script  type="text/javascript">
 
-    var hideShowButton = document.getElementById("hideButton");
+    var hideButton = document.getElementById("hideButton");
 
-    hideShowButton.onclick = function()
+    hideButton.onclick = function()
     { 
         var allImages = {left:"leftimage"};
 
@@ -29,13 +29,14 @@
             {
                 document.getElementById(allImages[image]).style.visibility = 'hidden'; 
             }
-            //document.getElementById("hideButton").innerHTML = "Mostrar imagens";
+            var img = document.getElementById("right");
+			img.style.left = 200 + "px";
         }
     }
 
-    var hideShowButton = document.getElementById("showButton");
+    var showButton = document.getElementById("showButton");
 
-    hideShowButton.onclick = function()
+    showButton.onclick = function()
     { 
         var allImages = {left:"leftimage"};
 
@@ -45,7 +46,8 @@
             {
                 document.getElementById(allImages[image]).style.visibility = 'visible'; 
             }
-            //document.getElementById("hideButton").innerHTML = "Mostrar imagens";
+            var img = document.getElementById("right");
+			img.style.right = 200 + "px";
         }
     }
 	</script>
